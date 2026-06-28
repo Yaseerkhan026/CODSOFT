@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>YASEER KHAN | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2 class="logo">Yaseer's Portfolio.</h2>
+
+        <div class="nav-right">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme">
+                <i class="fas fa-sun"></i>
+            </button>
+            <button id="menu-toggle" class="menu-btn" aria-label="Toggle Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+
+    <div class="content">
+        <h2>Hello, I'm</h2>
+        <h1>YASEER KHAN</h1>
+
+        <h2>
+            <span id="typing"></span>
+        </h2>
+
+        <p>
+            Computer Engineering Student Passionate about
+            Web Development, Java Programming, Machine Learning,
+            and Artificial Intelligence.
+        </p>
+
+        <div class="buttons">
+            <a href="#projects"  class="btn">
+                View Projects
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+                Contact Me
+            </a>
+        </div>
+    </div>
+
+    <div class="image">
+        <img src="assests/myphoto.jpeg" alt="Profile">
+    </div>
+
+</section>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <div class="about-container">
+        <div class="about-image">
+            <img src="assests/tech_about.png" alt="Technology and Coding illustration">
+        </div>
+        <div class="about-content">
+            <p>
+                I am a Computer Engineering student with a passion
+                for building responsive websites and solving
+                real-world problems using technology.
+                I enjoy learning new technologies and creating
+                impactful software projects.
+            </p>
+
+            <div class="about-details">
+                <div class="detail-item">
+                    <span class="detail-label"><i class="fas fa-graduation-cap"></i> Education</span>
+                    <span class="detail-val">Computer Engineering Student</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label"><i class="fas fa-code"></i> Focus</span>
+                    <span class="detail-val">Web Development & Artificial Intelligence</span>
+                </div>
+                <div class="detail-item">
+                    <span class="detail-label"><i class="fas fa-cloud"></i> Machine Learning</span>
+                    <span class="detail-val">Gaining Knowledge about Machine Learning Algorithms</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+ <!-- Skills -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </section>
+
+    
+<section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="projects">
+
+        <div class="card">
+            <h3>AI-Driven Speed Breaker Alert System</h3>
+            <p>
+                Machine Learning model to predict
+                loan default risks.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>CodeSoft Projects</h3>
+            <p>
+                Responsive personal portfolio 
+                ,Landing Page and Calculator.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Smart Solar Efficiency System</h3>
+            <p>
+                A IoT-based real-time monitoring system
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="resume">
+    <h2>Resume</h2>
+    <div class="resume-container">
+        <div class="resume-card">
+            <div class="resume-icon">
+                <i class="fas fa-file-pdf"></i>
+            </div>
+            <h3>Yaseer Khan's - Resume</h3>
+            <p>
+                Interested in learning more details about my qualifications, experience, and academic work? 
+                Download my updated resume to view my complete professional and educational history.
+            </p>
+            <a href="assests/resume.pdf" download="Yaseer_Khan_Resume.pdf" class="btn">
+                <i class="fas fa-download"></i> Download Resume
+            </a>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+<!--contact section-->
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+        <input
+        type="text"
+        placeholder="Your Name"
+        required>
+
+        <input
+        type="email"
+        placeholder="Your Email"
+        required>
+
+        <textarea
+        placeholder="Your Message"
+        rows="5"
+        required></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
+</section>
+
+<footer class="footer-section">
+    <div class="footer-container">
+        <!-- Column 1: Info -->
+        <div class="footer-col footer-info">
+            <h3 class="footer-title highlight">Yaseer Khan</h3>
+            <p>Aspiring Computer Engineer and Software Developer specializing in building modern web systems.</p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="footer-col footer-links">
+            <h3 class="footer-title">Quick Links</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="assests/resume.pdf" download="Yaseer_Khan_Resume.pdf">Resume</a></li>
+                
+            </ul>
+        </div>
+
+        <!-- Column 3: Social Media -->
+        <div class="footer-col footer-social">
+            <h3 class="footer-title">Social Media</h3>
+            <p>Let's connect on digital networking media portals.</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/yaseer-khan-7b7846287/" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Yaseerkhan026" target="_blank" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://leetcode.com/u/Yaseer-Khan/" target="_blank" class="social-icon" aria-label="Code"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p class="copyright">© 2026 Yaseer Khan. All Rights Reserved.</p>
+        <p class="built-by">Built with <span class="heart">❤️</span> using HTML, CSS, and JS</p>
+    </div>
+</footer>
+
+<!-- Scroll to Top Button -->
+<a href="#home" id="scroll-to-top" class="scroll-top-btn" aria-label="Scroll to Top">
+    <i class="fas fa-arrow-up"></i>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
